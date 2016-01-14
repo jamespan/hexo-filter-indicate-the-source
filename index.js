@@ -34,7 +34,7 @@ var script =
 + "  }\n"
 + "  var domain = document.domain;\n"
 + "  var white_list = ['" + config.domain_white_list.join("', '") + "'];\n"
-+ "  if (white_list.indexOf(domain) > 0) {\n"
++ "  if (white_list.indexOf(domain) >＝ 0) {\n"
 + "    var elements = document.getElementsByClassName('" + config.element_class + "');\n"
 + "    elements.remove();\n"
 + "  }\n"
